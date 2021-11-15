@@ -1,0 +1,10 @@
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe.config
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.pdb
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Form1.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Properties.Resources.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.GenerateResource.cache
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.CoreCompileInputs.cache
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.exe
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.pdb
