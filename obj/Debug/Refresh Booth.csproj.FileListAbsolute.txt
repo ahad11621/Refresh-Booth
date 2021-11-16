@@ -2,9 +2,32 @@ E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe.config
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.pdb
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
-E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Form1.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Properties.Resources.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.GenerateResource.cache
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.CoreCompileInputs.cache
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.exe
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.pdb
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\BouncyCastle.Crypto.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Google.Protobuf.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Compression.LZ4.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Hash.xxHash.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\MySql.Data.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Buffers.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Memory.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Numerics.Vectors.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Ubiety.Dns.Core.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\ZstdNet.dll
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Google.Protobuf.pdb
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Google.Protobuf.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Compression.LZ4.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\K4os.Hash.xxHash.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\MySql.Data.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Buffers.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Memory.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Numerics.Vectors.xml
+E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Home.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.CopyComplete
