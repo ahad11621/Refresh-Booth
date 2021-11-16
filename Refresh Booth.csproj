@@ -90,6 +90,60 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Forms\Companies\Aquafina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Aquafina.Designer.cs">
+      <DependentUpon>Aquafina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\Cocacola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Cocacola.Designer.cs">
+      <DependentUpon>Cocacola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\Fanta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Fanta.Designer.cs">
+      <DependentUpon>Fanta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\Mirinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Mirinda.Designer.cs">
+      <DependentUpon>Mirinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\MountainDew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\MountainDew.Designer.cs">
+      <DependentUpon>MountainDew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\Pepsi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Pepsi.Designer.cs">
+      <DependentUpon>Pepsi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\SevenUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\SevenUp.Designer.cs">
+      <DependentUpon>SevenUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\RedBull.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\RedBull.Designer.cs">
+      <DependentUpon>RedBull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Companies\Sprite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Companies\Sprite.Designer.cs">
+      <DependentUpon>Sprite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +152,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Companies\SevenUp.resx">
+      <DependentUpon>SevenUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Aquafina.resx">
+      <DependentUpon>Aquafina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Cocacola.resx">
+      <DependentUpon>Cocacola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Fanta.resx">
+      <DependentUpon>Fanta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Mirinda.resx">
+      <DependentUpon>Mirinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\MountainDew.resx">
+      <DependentUpon>MountainDew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Pepsi.resx">
+      <DependentUpon>Pepsi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\RedBull.resx">
+      <DependentUpon>RedBull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Companies\Sprite.resx">
+      <DependentUpon>Sprite.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
