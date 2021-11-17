@@ -118,17 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="7up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Pepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pepsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MountainDew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MountainDew.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Aquafina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aquafina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cocacola" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cocacola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,16 +136,46 @@
   <data name="Mirinda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mirinda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MountainDew" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MountainDew.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pepsi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pepsi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cocacola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cocacola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RedBull" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RedBull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7up-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7up-Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aquafina-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aquafina-Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cocacola-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cocacola-Bottle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fanta-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fanta-Bottle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mirinda-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mirinda-Bottle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MountainDew-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MountainDew-Bottle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pepsi-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pepsi-Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedBull-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedBull-Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Bottle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Bottle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

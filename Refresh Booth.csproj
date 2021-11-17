@@ -240,5 +240,35 @@
   <ItemGroup>
     <None Include="Resources\Sprite.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7up-Bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aquafina-Bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cocacola-Bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fanta-Bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mirinda-Bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MountainDew-Bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pepsi-Bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedBull-Bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite-Bottle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

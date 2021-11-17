@@ -21,5 +21,17 @@ namespace Refresh_Booth.Forms.Companies
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Home h = new Home();
+            h.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

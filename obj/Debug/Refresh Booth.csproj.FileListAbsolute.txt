@@ -1,7 +1,6 @@
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe.config
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.exe
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\Refresh Booth.pdb
-E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Properties.Resources.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.GenerateResource.cache
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.CoreCompileInputs.cache
@@ -31,3 +30,13 @@ E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Numerics.Vectors.xml
 E:\C#\Refresh Booth\Refresh-Booth\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Home.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.CopyComplete
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.SevenUp.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Aquafina.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Cocacola.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Fanta.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Mirinda.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.MountainDew.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Pepsi.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.RedBull.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Sprite.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
