@@ -80,5 +80,10 @@ namespace Refresh_Booth.Forms
             Aquafina a = new Aquafina();
             a.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
