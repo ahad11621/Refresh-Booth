@@ -88,6 +88,7 @@ namespace Refresh_Booth.Forms
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 28;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
@@ -99,6 +100,7 @@ namespace Refresh_Booth.Forms
             this.label1.Size = new System.Drawing.Size(31, 29);
             this.label1.TabIndex = 27;
             this.label1.Text = "X";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 

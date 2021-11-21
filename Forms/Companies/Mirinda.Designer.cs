@@ -189,6 +189,7 @@ namespace Refresh_Booth.Forms.Companies
             this.button3.TabIndex = 40;
             this.button3.Text = "Get";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox3
             // 
@@ -215,6 +216,7 @@ namespace Refresh_Booth.Forms.Companies
             this.Name = "Mirinda";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mirinda";
+            this.Load += new System.EventHandler(this.Mirinda_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

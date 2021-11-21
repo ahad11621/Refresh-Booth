@@ -28,5 +28,20 @@ namespace Refresh_Booth.Forms.Companies
             Home h = new Home();
             h.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cocacola_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
