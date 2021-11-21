@@ -1,7 +1,7 @@
 ﻿
-namespace Refresh_Booth.Forms.Companies
+namespace Refresh_Booth.Forms
 {
-    partial class Aquafina
+    partial class Payment
     {
         /// <summary>
         /// Required designer variable.
@@ -32,20 +32,21 @@ namespace Refresh_Booth.Forms.Companies
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -55,7 +56,7 @@ namespace Refresh_Booth.Forms.Companies
             this.panel4.Location = new System.Drawing.Point(640, 126);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 436);
-            this.panel4.TabIndex = 25;
+            this.panel4.TabIndex = 41;
             // 
             // panel1
             // 
@@ -64,7 +65,7 @@ namespace Refresh_Booth.Forms.Companies
             this.panel1.Location = new System.Drawing.Point(0, 126);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(10, 436);
-            this.panel1.TabIndex = 24;
+            this.panel1.TabIndex = 40;
             // 
             // panel3
             // 
@@ -76,7 +77,17 @@ namespace Refresh_Booth.Forms.Companies
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(650, 126);
-            this.panel3.TabIndex = 23;
+            this.panel3.TabIndex = 39;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Refresh_Booth.Properties.Resources.back;
+            this.pictureBox2.Location = new System.Drawing.Point(569, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 28;
+            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -88,27 +99,6 @@ namespace Refresh_Booth.Forms.Companies
             this.label1.Size = new System.Drawing.Size(31, 29);
             this.label1.TabIndex = 27;
             this.label1.Text = "X";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Peru;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 562);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(650, 38);
-            this.panel2.TabIndex = 22;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Refresh_Booth.Properties.Resources.back;
-            this.pictureBox2.Location = new System.Drawing.Point(569, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 28;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -120,102 +110,121 @@ namespace Refresh_Booth.Forms.Companies
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Peru;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 562);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(650, 38);
+            this.panel2.TabIndex = 38;
+            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(53, 171);
+            this.groupBox1.Location = new System.Drawing.Point(76, 193);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(551, 361);
-            this.groupBox1.TabIndex = 27;
+            this.groupBox1.Size = new System.Drawing.Size(502, 321);
+            this.groupBox1.TabIndex = 42;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Aquafina";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.groupBox1.Text = "Payment";
             // 
-            // button3
+            // textBox1
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(321, 212);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(123, 47);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "Get";
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(75, 180);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(335, 38);
+            this.textBox1.TabIndex = 0;
             // 
-            // pictureBox3
+            // label2
             // 
-            this.pictureBox3.Image = global::Refresh_Booth.Properties.Resources.Aquafina_Bottle;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 73);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(214, 249);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 34;
-            this.pictureBox3.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(69, 146);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(187, 31);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Enter Amount:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(169, 238);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 44);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Pay";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(396, 144);
+            this.label3.Location = new System.Drawing.Point(69, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 31);
-            this.label3.TabIndex = 47;
-            this.label3.Text = "20 Tk.";
+            this.label3.Size = new System.Drawing.Size(159, 31);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Please, Pay";
             // 
-            // radioButton3
+            // label4
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(278, 142);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(112, 35);
-            this.radioButton3.TabIndex = 48;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "500 ml";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(225, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 31);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "999";
             // 
-            // Aquafina
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(280, 78);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 31);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Tk.";
+            // 
+            // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Ivory;
             this.ClientSize = new System.Drawing.Size(650, 600);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Aquafina";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Aquafina";
-            this.Load += new System.EventHandler(this.Aquafina_Load);
+            this.Name = "Payment";
+            this.Text = " ";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -33,5 +33,10 @@ namespace Refresh_Booth.Forms.Companies
         {
             Application.Exit();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
