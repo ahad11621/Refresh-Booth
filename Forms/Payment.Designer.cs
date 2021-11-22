@@ -201,6 +201,7 @@ namespace Refresh_Booth.Forms
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Payment";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

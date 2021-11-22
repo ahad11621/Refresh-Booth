@@ -15,7 +15,7 @@ namespace ATM_System.Data
 
         public DataAccess()
         {
-            connection = new MySqlConnection("datasource = localhost;username = root; password=; database = atm-system");
+            connection = new MySqlConnection("datasource = localhost;username = root; password=; database = refresh-booth");
             connection.Open();
         }
 

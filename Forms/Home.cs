@@ -1,4 +1,5 @@
-﻿using Refresh_Booth.Forms.Companies;
+﻿using Refresh_Booth.Forms.Admin;
+using Refresh_Booth.Forms.Companies;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -84,6 +85,13 @@ namespace Refresh_Booth.Forms
         private void label1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login l = new Login();
+            l.Show();
         }
     }
 }

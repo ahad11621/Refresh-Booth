@@ -40,3 +40,6 @@ E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Pepsi.
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.RedBull.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Companies.Sprite.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Payment.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Home.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Login.resources

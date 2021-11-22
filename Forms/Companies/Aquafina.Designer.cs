@@ -37,7 +37,7 @@ namespace Refresh_Booth.Forms.Companies
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -124,7 +124,7 @@ namespace Refresh_Booth.Forms.Companies
             // 
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(53, 171);
@@ -135,16 +135,16 @@ namespace Refresh_Booth.Forms.Companies
             this.groupBox1.Text = "Aquafina";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button3
+            // button4
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(321, 212);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(123, 47);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "Get";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(321, 212);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(123, 47);
+            this.button4.TabIndex = 40;
+            this.button4.Text = "Get";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox3
             // 
@@ -216,7 +216,7 @@ namespace Refresh_Booth.Forms.Companies
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
