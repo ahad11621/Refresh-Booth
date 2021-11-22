@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Refresh_Booth.Forms.Admin
 {
-    public partial class Home : Form
+    public partial class Product : Form
     {
-        public Home()
+        public Product()
         {
             InitializeComponent();
         }
@@ -22,18 +22,11 @@ namespace Refresh_Booth.Forms.Admin
             Application.Exit();
         }
 
-        private void btnProduct_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Product p = new Product();
-            p.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Sell p = new Sell();
-            p.Show();
+            Home h = new Home();
+            h.Show();
         }
     }
 }

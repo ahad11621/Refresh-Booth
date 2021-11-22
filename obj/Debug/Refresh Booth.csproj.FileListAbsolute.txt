@@ -43,3 +43,5 @@ E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Payment.resource
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh Booth.csproj.AssemblyReference.cache
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Home.resources
 E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Login.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Product.resources
+E:\C#\Refresh Booth\Refresh-Booth\obj\Debug\Refresh_Booth.Forms.Admin.Sell.resources

@@ -102,6 +102,18 @@
     <Compile Include="Forms\Admin\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Admin\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Admin\Sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin\Sell.Designer.cs">
+      <DependentUpon>Sell.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Companies\Aquafina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +187,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Admin\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Admin\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Admin\Sell.resx">
+      <DependentUpon>Sell.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Companies\SevenUp.resx">
       <DependentUpon>SevenUp.cs</DependentUpon>

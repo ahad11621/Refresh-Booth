@@ -34,6 +34,8 @@ namespace Refresh_Booth.Forms.Admin
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnProduct = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,6 +91,32 @@ namespace Refresh_Booth.Forms.Admin
             this.panel2.Size = new System.Drawing.Size(650, 38);
             this.panel2.TabIndex = 22;
             // 
+            // btnProduct
+            // 
+            this.btnProduct.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProduct.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnProduct.Location = new System.Drawing.Point(245, 272);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(165, 51);
+            this.btnProduct.TabIndex = 26;
+            this.btnProduct.Text = "Product";
+            this.btnProduct.UseVisualStyleBackColor = false;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.CadetBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button1.Location = new System.Drawing.Point(245, 360);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(165, 49);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "Sell";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Refresh_Booth.Properties.Resources.logo;
@@ -104,6 +132,8 @@ namespace Refresh_Booth.Forms.Admin
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(650, 600);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
@@ -127,5 +157,7 @@ namespace Refresh_Booth.Forms.Admin
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnProduct;
+        private System.Windows.Forms.Button button1;
     }
 }
