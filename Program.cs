@@ -1,4 +1,5 @@
 ﻿using Refresh_Booth.Forms;
+using Refresh_Booth.Forms.Admin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Refresh_Booth
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Product());
         }
     }
 }

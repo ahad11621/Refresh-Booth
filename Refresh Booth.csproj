@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Forms\Admin\Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -182,6 +183,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ProductRepo.cs" />
     <EmbeddedResource Include="Forms\Admin\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,10 +253,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>
