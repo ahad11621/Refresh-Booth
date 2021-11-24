@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 
 namespace Refresh_Booth.Repositories
 {
-    class ProductRepo
+    class SellRepo
     {
         DataAccess dataAccess;
-        public ProductRepo()
+        public SellRepo()
         {
             dataAccess = new DataAccess();
         }
-        //Get all Product (Admin-Product)
-        public List<Product> GetAllProduct()
+        //Get all Sell (Admin-Sell)
+        public List<Product> GetAllSell()
         {
             try
             {
-                string sql = "SELECT * FROM product";
+                string sql = "SELECT * FROM sell";
                 MySqlDataReader reader = dataAccess.GetData(sql);
                 List<Product> pra = new List<Product>();
                 while (reader.Read())
@@ -42,28 +42,6 @@ namespace Refresh_Booth.Repositories
             {
                 return null;
             }
-        }
-        //Add Product (Admin-Product)
-        public int AddProduct(string size, int quantity, string company)
-        {
-            try
-            {
-                //string sql = "UPDATE product SET '" + size + "' = '" + size + "' + '" + quantity + "' WHERE Company='" + company + "'";
-                string sql = "UPDATE product SET S" + size + " = S" + size + " + '" + quantity + "' WHERE Company='" + company + "'";
-                return dataAccess.ExecuteQuery(sql);
-            }
-            catch (Exception)
-            {
-                return 0;
-            }
-        }
-        public int GetProductQuantity(string size, string company)
-        {
-            string sql = "SELECT S" + size + " FROM product WHERE Company='" + company + "'";
-            MySqlDataReader reader = dataAccess.GetData(sql);
-            reader.Read();
-            int quantity = (int)reader["S" + size + ""];
-            return quantity;
         }
     }
 }

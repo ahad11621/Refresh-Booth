@@ -69,25 +69,49 @@ namespace Refresh_Booth.Forms.Admin
 
         private void btnAddProduct_Click(object sender, EventArgs e)
         {
-            string size = cmbSize.SelectedItem.ToString();
-            int quantity = Convert.ToInt32(txtQuantity.Text);
-            string company = cmbCom.SelectedItem.ToString();
-            ProductRepo pr = new ProductRepo();
-            int result = pr.AddProduct(size, quantity, company);
-            if (result > 0)
+            if(cmbSize.SelectedItem.ToString() == "" || cmbCom.SelectedItem.ToString() == "" || txtQuantity.Text == "")
             {
-                MessageBox.Show("Update");
-                //CmbSize();
-                //CmbCompany();
-                //txtQuantity.Text = string.Empty;
-                GetTable();
+                MessageBox.Show("Add your product information.");
+                CmbSize();
+                CmbCompany();
+                txtQuantity.Text = string.Empty;
             }
             else
             {
-                MessageBox.Show("Won't work");
-                //CmbSize();
-                //CmbCompany();
-                //txtQuantity.Text = string.Empty;
+                string size = cmbSize.SelectedItem.ToString();
+                int quantity = Convert.ToInt32(txtQuantity.Text);
+                string company = cmbCom.SelectedItem.ToString();
+
+                ProductRepo p = new ProductRepo();
+                int q = p.GetProductQuantity(size, company);
+
+                if ((q + quantity) > 20)
+                {
+                    MessageBox.Show("Quantity cann't be up to 20");
+                    CmbSize();
+                    CmbCompany();
+                    txtQuantity.Text = string.Empty;
+                }
+                else
+                {
+                    ProductRepo pr = new ProductRepo();
+                    int result = pr.AddProduct(size, quantity, company);
+                    if (result > 0)
+                    {
+                        MessageBox.Show("Update");
+                        CmbSize();
+                        CmbCompany();
+                        txtQuantity.Text = string.Empty;
+                        GetTable();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Won't work");
+                        CmbSize();
+                        CmbCompany();
+                        txtQuantity.Text = string.Empty;
+                    }
+                }
             }
         }
     }

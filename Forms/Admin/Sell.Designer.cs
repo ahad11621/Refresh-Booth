@@ -32,6 +32,7 @@ namespace Refresh_Booth.Forms.Admin
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -43,12 +44,11 @@ namespace Refresh_Booth.Forms.Admin
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -80,6 +80,17 @@ namespace Refresh_Booth.Forms.Admin
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(650, 126);
             this.panel3.TabIndex = 29;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Refresh_Booth.Properties.Resources.back;
+            this.pictureBox2.Location = new System.Drawing.Point(566, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 29;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
@@ -116,9 +127,9 @@ namespace Refresh_Booth.Forms.Admin
             // 
             this.groupBox1.Controls.Add(this.dataGridView1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(33, 164);
+            this.groupBox1.Location = new System.Drawing.Point(36, 173);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(578, 321);
+            this.groupBox1.Size = new System.Drawing.Size(578, 254);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sell";
@@ -138,7 +149,7 @@ namespace Refresh_Booth.Forms.Admin
             this.dataGridView1.Location = new System.Drawing.Point(3, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(572, 296);
+            this.dataGridView1.Size = new System.Drawing.Size(572, 229);
             this.dataGridView1.TabIndex = 35;
             // 
             // Company
@@ -149,49 +160,38 @@ namespace Refresh_Booth.Forms.Admin
             // 
             // Column1
             // 
-            this.Column1.DataPropertyName = "200ml";
+            this.Column1.DataPropertyName = "S200ml";
             this.Column1.HeaderText = "200 ml";
             this.Column1.Name = "Column1";
             this.Column1.Width = 94;
             // 
             // Column2
             // 
-            this.Column2.DataPropertyName = "250ml";
+            this.Column2.DataPropertyName = "S250ml";
             this.Column2.HeaderText = "250 ml";
             this.Column2.Name = "Column2";
             this.Column2.Width = 94;
             // 
             // Column3
             // 
-            this.Column3.DataPropertyName = "400ml";
+            this.Column3.DataPropertyName = "S400ml";
             this.Column3.HeaderText = "400 ml";
             this.Column3.Name = "Column3";
             this.Column3.Width = 94;
             // 
             // Column4
             // 
-            this.Column4.DataPropertyName = "500ml";
+            this.Column4.DataPropertyName = "S500ml";
             this.Column4.HeaderText = "500 ml";
             this.Column4.Name = "Column4";
             this.Column4.Width = 94;
             // 
             // Column5
             // 
-            this.Column5.DataPropertyName = "600ml";
+            this.Column5.DataPropertyName = "S600ml";
             this.Column5.HeaderText = "600 ml";
             this.Column5.Name = "Column5";
             this.Column5.Width = 93;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Refresh_Booth.Properties.Resources.back;
-            this.pictureBox2.Location = new System.Drawing.Point(566, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Sell
             // 
@@ -207,12 +207,13 @@ namespace Refresh_Booth.Forms.Admin
             this.Name = "Sell";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sell";
+            this.Load += new System.EventHandler(this.Sell_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -225,6 +226,7 @@ namespace Refresh_Booth.Forms.Admin
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Company;
@@ -233,6 +235,5 @@ namespace Refresh_Booth.Forms.Admin
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

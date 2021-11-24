@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Refresh_Booth.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,17 @@ namespace Refresh_Booth.Forms.Admin
             this.Hide();
             Home h = new Home();
             h.Show();
+        }
+
+        private void Sell_Load(object sender, EventArgs e)
+        {
+            GetTable();
+        }
+        void GetTable()
+        {
+            SellRepo pr = new SellRepo();
+            dataGridView1.DataSource = pr.GetAllSell();
+            dataGridView1.Columns[0].Visible = false;
         }
     }
 }
