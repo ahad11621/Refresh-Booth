@@ -48,7 +48,6 @@ namespace Refresh_Booth.Repositories
         {
             try
             {
-                //string sql = "UPDATE product SET '" + size + "' = '" + size + "' + '" + quantity + "' WHERE Company='" + company + "'";
                 string sql = "UPDATE product SET S" + size + " = S" + size + " + '" + quantity + "' WHERE Company='" + company + "'";
                 return dataAccess.ExecuteQuery(sql);
             }
@@ -57,6 +56,7 @@ namespace Refresh_Booth.Repositories
                 return 0;
             }
         }
+        // Get Product Quantity (Admin-Product)
         public int GetProductQuantity(string size, string company)
         {
             string sql = "SELECT S" + size + " FROM product WHERE Company='" + company + "'";
@@ -64,6 +64,19 @@ namespace Refresh_Booth.Repositories
             reader.Read();
             int quantity = (int)reader["S" + size + ""];
             return quantity;
+        }
+        //Sell Product (Companies)
+        public int SellProduct(string size, int quantity, string company)
+        {
+            try
+            {
+                string sql = "UPDATE product SET S" + size + " = S" + size + " - '" + quantity + "' WHERE Company='" + company + "'";
+                return dataAccess.ExecuteQuery(sql);
+            }
+            catch (Exception)
+            {
+                return 0;
+            }
         }
     }
 }

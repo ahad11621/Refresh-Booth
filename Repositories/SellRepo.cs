@@ -43,5 +43,18 @@ namespace Refresh_Booth.Repositories
                 return null;
             }
         }
+        //Sell Product (Companies)
+        public int SellProduct(string size, int quantity, string company)
+        {
+            try
+            {
+                string sql = "UPDATE sell SET S" + size + " = S" + size + " + '" + quantity + "' WHERE Company='" + company + "'";
+                return dataAccess.ExecuteQuery(sql);
+            }
+            catch (Exception)
+            {
+                return 0;
+            }
+        }
     }
 }

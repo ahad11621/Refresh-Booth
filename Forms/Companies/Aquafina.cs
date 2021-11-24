@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Refresh_Booth.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,9 +42,20 @@ namespace Refresh_Booth.Forms.Companies
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Payment p = new Payment();
-            p.Show();
+            if(radioButton3.Checked == true)
+            {
+                string size = "500ml";
+                int quantity = 1;
+                string company = "Aquafina";
+                int price = 20;
+                this.Hide();
+                Payment p = new Payment(size,quantity,company,price);
+                p.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select one.");
+            }
         }
     }
 }
