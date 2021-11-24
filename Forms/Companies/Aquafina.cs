@@ -13,6 +13,10 @@ namespace Refresh_Booth.Forms.Companies
 {
     public partial class Aquafina : Form
     {
+        int quantity = 1;
+        string company = "Aquafina";
+        string size;
+        int price;
         public Aquafina()
         {
             InitializeComponent();
@@ -44,10 +48,8 @@ namespace Refresh_Booth.Forms.Companies
         {
             if(radioButton3.Checked == true)
             {
-                string size = "500ml";
-                int quantity = 1;
-                string company = "Aquafina";
-                int price = 20;
+                size = "500ml";
+                price = 20;
                 this.Hide();
                 Payment p = new Payment(size,quantity,company,price);
                 p.Show();

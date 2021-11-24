@@ -32,7 +32,6 @@ namespace Refresh_Booth.Forms.Admin
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -82,7 +81,6 @@ namespace Refresh_Booth.Forms.Admin
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.CadetBlue;
-            this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
@@ -91,15 +89,6 @@ namespace Refresh_Booth.Forms.Admin
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(650, 126);
             this.panel3.TabIndex = 29;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(156, 88);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 40;
-            this.label5.Text = "label5";
             // 
             // pictureBox2
             // 
@@ -347,6 +336,5 @@ namespace Refresh_Booth.Forms.Admin
         private System.Windows.Forms.ComboBox cmbSize;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cmbCom;
-        private System.Windows.Forms.Label label5;
     }
 }

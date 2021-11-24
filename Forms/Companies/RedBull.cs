@@ -12,6 +12,10 @@ namespace Refresh_Booth.Forms.Companies
 {
     public partial class RedBull : Form
     {
+        string company = "RedBull";
+        int quantity = 1;
+        string size;
+        int price;
         public RedBull()
         {
             InitializeComponent();
@@ -31,9 +35,18 @@ namespace Refresh_Booth.Forms.Companies
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Payment p = new Payment();
-            p.Show();
+            if (radioButton3.Checked == true)
+            {
+                size = "200ml";
+                price = 200;
+                this.Hide();
+                Payment p = new Payment(size, quantity, company, price);
+                p.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select one.");
+            }
         }
     }
 }

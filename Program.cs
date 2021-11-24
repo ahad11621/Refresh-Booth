@@ -1,5 +1,5 @@
 ﻿using Refresh_Booth.Forms;
-using Refresh_Booth.Forms.Admin;
+//using Refresh_Booth.Forms.Admin;
 using Refresh_Booth.Forms.Companies;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace Refresh_Booth
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Aquafina());
+            Application.Run(new Home());
         }
     }
 }

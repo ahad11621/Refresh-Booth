@@ -12,6 +12,10 @@ namespace Refresh_Booth.Forms.Companies
 {
     public partial class Cocacola : Form
     {
+        string company = "Cocacola";
+        int quantity = 1;
+        string size;
+        int price;
         public Cocacola()
         {
             InitializeComponent();
@@ -31,9 +35,31 @@ namespace Refresh_Booth.Forms.Companies
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Payment p = new Payment();
-            p.Show();
+            if (radioButton1.Checked == true || radioButton2.Checked == true || radioButton3.Checked == true)
+            {
+                if(radioButton1.Checked == true)
+                {
+                    size = "200ml";
+                    price = 20;
+                }
+                else if (radioButton2.Checked == true)
+                {
+                    size = "400ml";
+                    price = 30;
+                }
+                else
+                {
+                    size = "600ml";
+                    price = 40;
+                }
+                this.Hide();
+                Payment p = new Payment(size, quantity, company, price);
+                p.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select one.");
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

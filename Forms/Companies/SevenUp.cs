@@ -12,6 +12,10 @@ namespace Refresh_Booth.Forms.Companies
 {
     public partial class SevenUp : Form
     {
+        string company = "7up";
+        int quantity = 1;
+        string size;
+        int price;
         public SevenUp()
         {
             InitializeComponent();
@@ -31,9 +35,26 @@ namespace Refresh_Booth.Forms.Companies
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Payment p = new Payment();
-            p.Show();
+            if (radioButton2.Checked == true || radioButton3.Checked == true)
+            {
+                if (radioButton2.Checked == true)
+                {
+                    size = "250ml";
+                    price = 20;
+                }
+                else
+                {
+                    size = "500ml";
+                    price = 35;
+                }
+                this.Hide();
+                Payment p = new Payment(size, quantity, company, price);
+                p.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please select one.");
+            }
         }
     }
 }
